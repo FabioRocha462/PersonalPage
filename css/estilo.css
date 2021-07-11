@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #000000;
+    display: -webkit-flex;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+header h1{
+    color: blanchedalmond;
+    text-align: center;
+    margin-left: 250px;
+}
+header img{
+    border-radius: 360px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+nav{
+    background-color: black;
+    margin-right: -10px;
+  
+}
+
+nav a{
+    margin-left: 10px;
+}
+nav a:hover{
+    color:mediumseagreen;
+}
+nav a,ul{
+    color: blanchedalmond;
+}
+.container-fluid{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    
+}
+.container-fluid img{
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.page-footer{
+    background-color: black;
+}
+.page-footer ul{
+    display: flex;
+   
+}
+.page-footer a{
+    margin-right: 5px;
+}
+.info {
+    background-image: url(../img/fund.jpg);
+}
+.info p{
+    color: black
+    
+}
+.info h6{
+    color: black;
+}
